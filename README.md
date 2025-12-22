@@ -35,7 +35,7 @@ Fill in your details in the JSON list - the setup is this:
 
 ## Reference: [ktyl.dev](https://ktyl.dev)
 
-**TODO: image**
+<img width="1250" height="256" alt="image" src="https://github.com/user-attachments/assets/82498c3f-3194-4422-aecb-c7ab316dd4ef" />
 
 Pure HTML/CSS version is provided first, see note about actual implementation later.
 
