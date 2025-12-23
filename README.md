@@ -37,6 +37,10 @@ Fill in your details in the JSON list - the setup is this:
 
 <img width="1250" height="256" alt="image" src="https://github.com/user-attachments/assets/82498c3f-3194-4422-aecb-c7ab316dd4ef" />
 
+<details>
+
+<summary>Pure HTML/CSS rendering (build-time implementation)</summary>
+
 Pure HTML/CSS version is provided first, see note about actual implementation later.
 
 ```html
@@ -99,3 +103,5 @@ a:visited {
 ```
 
 The above should be enough to implement the component accurately with no dependencies, however in practice it is implemented using the [Astro](https://astro.build/) framework, which allows for scripting to run at build-time to dynamically determine the links. The Astro component can be found verbatim [here](https://sauce.wednesday.pizza/ktyl/ktyl.dev/src/components/Webring.astro), which includes some templating and JavaScript to do aforementioned generation.
+
+</details>
